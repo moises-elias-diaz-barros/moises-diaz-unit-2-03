@@ -1,0 +1,20 @@
+/*
+  Created by: Moises Diaz 
+  Created on: Feb 25
+
+  Turns an LED on for one second, then off for one second, repeatedly.
+*/
+// constanst
+int pin5 = 5;
+// variables
+void setup()
+{
+  pinMode(pin5, OUTPUT);
+}
+void loop ()
+{
+  digitalWrite(pin5, HIGH);
+delay(1000); // wait for 1000 milisecond(s)
+  digitalWrite(pin5, LOW);
+  delay(1000); // wait for 1000 milisecond(s)
+}
